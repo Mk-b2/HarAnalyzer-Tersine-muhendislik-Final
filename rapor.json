@@ -1,0 +1,20 @@
+{
+    "summary": {
+        "total_leak_parameters": 3,
+        "total_insecure_cookies": 0,
+        "total_missing_headers": 3
+    },
+    "findings": {
+        "url_token_leaks": [
+            "[GET] /complete/s -> Sızan Parametre: 'authuser'",
+            "[POST] /log -> Sızan Parametre: 'authuser'",
+            "[POST] /log -> Sızan Parametre: 'auth'"
+        ],
+        "insecure_cookies": [],
+        "missing_security_headers": [
+            "URL: https://www.google.com/gen_204 -> Eksik: Strict-Transport-Security, X-Content-Type-Options",
+            "URL: https://www.google.com/client_204 -> Eksik: X-Content-Type-Options",
+            "URL: https://www.google.com/ -> Eksik: Content-Security-Policy, X-Content-Type-Options"
+        ]
+    }
+}
