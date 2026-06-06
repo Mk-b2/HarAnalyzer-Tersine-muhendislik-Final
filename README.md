@@ -1,3 +1,14 @@
+Markdown
+**BİLİŞİM GÜVENLİĞİ TEKNOLOJİSİ**
+
+* **Öğrenci:** Mehmet Kerem Bıyık
+* **Okul No:** 2420191046
+* **Ders Adı:** Tersine Mühendislik
+* **Öğretim Görevlisi:** Keyvan Arasteh Abbasabad
+
+---
+
+
 # 🚨 HAR Security Audit Tool
 
 Bu proje, web tarayıcılarından veya mobil cihazlardan dışa aktarılan **HTTP Archive (HAR)** dosyalarını analiz ederek potansiyel siber güvenlik zafiyetlerini ve veri sızıntılarını tespit eden, Streamlit tabanlı modern bir web dashboard aracıdır.
